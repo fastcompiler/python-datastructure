@@ -41,5 +41,6 @@ def to_postfix (expression):
 
         output+=stack.pop()
 
-    print(output)
+    return output
+print(to_postfix("a+b")
 
